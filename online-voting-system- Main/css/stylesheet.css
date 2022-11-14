@@ -1,0 +1,116 @@
+* {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #3498db;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#headerSection {
+  padding: 2px;
+}
+
+#loginSection {
+  padding: 5px;
+  border-style: solid;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 10px;
+  background-color: #06283d;
+  border-color: #06283d;
+}
+
+.regisSection {
+  padding: 5px;
+  border-style: solid;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 10px;
+  background-color: #06283d;
+  border-color: #06283d;
+}
+
+#loginbtn {
+  padding: 5px;
+  font-size: 15px;
+  width: 30%;
+  background-color: #dff6ff;
+  color: #06283d;
+  border-radius: 5px;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: #dff6ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: #dff6ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#back-button {
+  float: left;
+  width: 6%;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #06283d;
+  color: #dff6ff;
+  border-radius: 5px;
+}
+
+#logout-button {
+  float: right;
+  width: 6%;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #06283d;
+  color: #dff6ff;
+  border-radius: 5px;
+}

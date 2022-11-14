@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  background-color: #06283d;
+  height: 8vh;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 120px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.logo h1 {
+  color: #dff6ff;
+}
+.links ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+.links ul li {
+  list-style: none;
+  padding-right: 80px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.links ul li a {
+  color: #dff6ff;
+}
+
+.news {
+  display: flex;
+  justify-content: space-around;
+  height: 92vh;
+  background-color: #1363df;
+  color: #dff6ff;
+  letter-spacing: 1px;
+}
+
+.news h2 {
+  color: #dff6ff;
+  border-style: solid;
+  border-color: #06283d;
+  border-width: 5px;
+  border-radius: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.news h2:hover {
+  transition-duration: 1s;
+  background-color: #47b5ff;
+  cursor: pointer;
+  color: #06283d;
+}
+.news .political {
+  width: 100vw;
+  text-align: center;
+  padding-top: 10px;
+  border-right: 25px solid white;
+  height: 90.5vh;
+}
+.news .sports {
+  width: 100vw;
+  text-align: center;
+  padding-top: 10px;
+  border-right: 25px solid white;
+  height: 90.5vh;
+}
+.news .latest {
+  width: 100vw;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.political li {
+  list-style: none;
+
+  padding-top: 15px;
+  align-items: center;
+  font-family: "Abhaya Libre";
+  font-size: 20px;
+}
+
+.sports li {
+  list-style: none;
+  padding-top: 10px;
+  align-items: center;
+  font-family: "Abhaya Libre";
+  font-size: 19px;
+}
+
+.latest li {
+  list-style: none;
+  padding-top: 10px;
+  align-items: center;
+  font-family: "Abhaya Libre";
+  font-size: 20px;
+}
